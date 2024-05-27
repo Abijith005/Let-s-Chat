@@ -39,5 +39,6 @@ client/.DS_Store
 client/Thumbs.db
 
 
+
 server/node_modules
 server/.env

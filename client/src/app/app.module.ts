@@ -7,16 +7,12 @@ import { HomeComponent } from './home/home.component';
 import { ChatComponent } from './chat/chat.component';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    HomeComponent,
-    ChatComponent
-  ],
+  declarations: [AppComponent, HomeComponent, ChatComponent],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
-  providers: [],
-  bootstrap: [AppComponent]
+  providers: [  ],
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
