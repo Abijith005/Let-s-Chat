@@ -81,7 +81,7 @@ export class SignInComponent implements OnInit, OnDestroy {
           if (this.role == 'user') {     
             localStorage.setItem('userId',res._id)       
           }
-          this._router.navigate([`/register`]);
+          this._router.navigate([`../home`]);
         } else {
           this._ngToaster.error({
             position: 'topCenter',
